@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display" serif;
+    font-family: "Ubunty", sans-serif;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    margin-top: 75px;
+    display: inline-block;
+    padding: 0 60px;
+    text-transform: uppercase;
+}
+
+li a {
+    color: grey;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: lightblue;
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    width: 450px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+
+h2 {
+   font-family: "Ubuntu" sans-serif;
+   font-size: 25px;
+   margin: 0 15px;
+   text-align: left;
+}
+
+p {
+    color: lightgray;
+    font-size: 14px;
+    margin: 20px 0 20px 15px;
+    text-align: left;
+}
+
+button {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 60px;
+    margin-bottom: 20px;
+}
