@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+h2::after {
+    display: block;
+    background-color: green;
+    width: 160px;
+    height: 7px;
+    text-align: center;
+    content: '';
+    margin: 0 auto;
+}
