@@ -50,6 +50,9 @@ a:hover {
     float: right;
 }
 
+.hader>li:first-child {
+    margin-right: 0px;
+}
 .catalog {
     width: 1110px;
     margin: 0 auto;  
@@ -77,15 +80,17 @@ h3>a {
     text-transform: uppercase;
     width: 54px;
     height: 30px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-top: 5px;
 }
 
 .catalog-item:nth-child(4n) {
-    margin-right: 30px;
+    margin-right: 0px;
 }
 
 img {
+    display: block;
     width: 255px;
     height: 282px;
     background-color:#e9f0fd;
@@ -139,7 +144,7 @@ h3 {
     float: left;
     width: 350px;
     height: 540px;
-    margin-right: 34px;
+    margin-right: 30px;
     /*padding: 16px;*/
      /*282 322*/ /*350*540*/ /*160*51*/
 }
@@ -169,7 +174,7 @@ h4::after {
 }
 
 .blog-item:nth-child(3n) {
-    margin-right: 34px;
+    margin-right: 0px;
 }
 
 p {
