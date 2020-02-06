@@ -21,7 +21,7 @@ li a {
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     color: green;
 }
 
@@ -53,6 +53,11 @@ a:hover {
 .hader>li:first-child {
     margin-right: 0px;
 }
+
+/*li a:hover {
+    background-color: #1abc9c;
+}*/
+
 .catalog {
     width: 1110px;
     margin: 0 auto;  
@@ -68,21 +73,33 @@ a:hover {
     float: left;
     width: 255px;
     height: 322px;
-    margin-right: 30px; /*282 322*/ /*350*540*/
+    margin-right: 30px;
 }
 
 h3>a {
-    float: right;
+    display: inline-block;
     color:white;
-    background-color: grey;
     font-size: 18px;
     font-family: "Myriad Pro";
     text-transform: uppercase;
-    width: 54px;
+    text-align: center;
+    /*width: 54px;
     height: 30px;
-    margin: 0 auto;
+    margin: 0 auto;*/
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+h3>p {
+    color: white;
+    background-color: grey;
+    float: right;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    width: 54px;
+    height: 40px;
     padding-left: 15px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .catalog-item:nth-child(4n) {
@@ -122,9 +139,9 @@ h3 {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-align: left;
-    height: 30px;
-    padding-left: 15px;
-    padding-top: 5px;
+    height: 40px;
+    /*padding-left: 15px;
+    padding-top: 5px;*/
 }
 
 .blog {
@@ -146,7 +163,6 @@ h3 {
     height: 540px;
     margin-right: 30px;
     /*padding: 16px;*/
-     /*282 322*/ /*350*540*/ /*160*51*/
 }
 
 .blog-item>img {
