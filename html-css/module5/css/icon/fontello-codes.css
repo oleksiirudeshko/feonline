@@ -1,0 +1,7 @@
+
+.icon-heart-empty:before { content: '\e800'; } /* '' */
+.icon-shuffle:before { content: '\e801'; } /* '' */
+.icon-basket:before { content: '\e802'; } /* '' */
+.icon-clock-1:before { content: '\e803'; } /* '' */
+.icon-angle-left:before { content: '\f104'; } /* '' */
+.icon-angle-right:before { content: '\f105'; } /* '' */
