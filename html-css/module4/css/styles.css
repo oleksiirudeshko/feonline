@@ -89,8 +89,8 @@ nav a:hover {
 
 img {
     display: block;
-    width: 255px;
-    height: 282px;
+    /*width: 255px;
+    height: 282px;*/
     background-color:#e9f0fd;
 }
 
@@ -117,7 +117,6 @@ h2::after {
 }
 
 .catalog-name {
-    width: 255px;
     margin: 0;
     padding: 0;
     background-color: #323232;
@@ -181,14 +180,13 @@ h3>a {
 .blog-item {
     float: left;
     width: 350px;
-    height: 540px;
     margin-right: 30px;
 }
 
-.blog-item>img {
+/*.blog-item>img {
     width: 350px;
     height: 260px;
-}
+}*/
 
 .blog-item-hader {
     font-size: 18px;
