@@ -265,7 +265,7 @@ span:after {
 }
 
 .position-name {
-    ont-size: 14px;
+    font-size: 14px;
     font-family: "Montserrat";
     color: rgb(51, 51, 51);
     text-transform: uppercase;
