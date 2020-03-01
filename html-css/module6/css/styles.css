@@ -4,3 +4,347 @@ padding: 0;
 box-sizing: border-box;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    min-height: 65px;
+    margin: 0 0 110px;
+    padding-top: 2px;
+}
+
+.logo {
+    display: flex;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: #95e1d3;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.navigation-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #95e1d3;
+    line-height: 1.2;
+    list-style: none;
+    width: 490px;
+    height: 65px;
+}
+
+.navigation-item::after {
+    content: '';
+    background-color: rgb(243, 129, 129);
+    display: none;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 10px;
+    transition: width 200ms linear;
+
+}
+
+.navigation-item {
+    text-decoration: none;
+    color: #95e1d3;
+    transition: color 200ms linear;
+}
+
+.navigation-item:hover {
+    color: #f38181;
+}
+
+.navigation-item:hover:after {
+    width: 100%;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: "Kaushan Script";
+    color: rgb(51, 51, 51);
+    line-height: 1.7;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2::first-letter {
+    text-transform: uppercase;
+}
+
+span {
+    width: 317px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+span:after {
+    display: block;
+    background-color: rgb(243, 129, 129);
+    width: 60px;
+    height: 3px;
+    content: '';
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.service-name {
+    list-style: none;
+    padding-left: 60px;
+    max-width: 350px;
+    flex: 0 0 360px;
+    margin-bottom: 87px;
+    cursor: pointer;
+}
+
+.service-name>h3 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.7;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 9px;
+}
+
+.service-item {
+    padding: 65px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1151px;
+    margin: 0 auto;
+}
+
+.service-name>p {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: left;
+}
+
+.team-item {
+    max-width: 980px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    padding: 41px 0 88px;
+    margin: 0 auto;
+}
+
+.team-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.team-substrate>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function:linear;
+}
+
+.team-substrate {
+    position: relative;
+    background-color: rgb(149, 225, 211);
+    width: 380px;
+    height: 470px;
+}
+
+.card-cover {
+    background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.team-photo:hover .team-substrate>img,
+.team-photo:hover .card-cover {
+    transition-property: opacity, transform;
+    transition-duration: 200ms;
+    transition-timing-function:linear;
+    opacity: 1;
+    transform: translate(-11px, -11px);
+}
+
+.card-buttons {
+    width: 380px;
+    height: 470px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    list-style: none;
+}
+
+.card-button>a {
+    display: block;
+    list-style: none;
+    position: relative;
+    width: 56px;
+    height: 56px;
+    background-color: rgb(252, 227, 138);
+    transition: background-color 200ms linear;
+}
+
+.facebook::after {
+    background-image: url(../img/icon/facebook.png);
+    width: 13px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+.twitter::after {
+    background-image: url(../img/icon/twitter.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 22px;
+}
+
+.pinterest::after {
+    background-image: url(../img/icon/pinterest.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 22px;
+}
+
+.instagram::after {
+    background-image: url(../img/icon/instagram.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+}
+
+.card-button a::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-button:not(:last-child) {
+    border-right: 1px solid #f38181;
+}
+
+.card-button a:hover {
+    background-color: #95e1d3;
+}
+
+.position-name {
+    ont-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 12px;
+    padding-top: 27px;
+}
+
+.position {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    line-height: 3;
+}
+
+.footer-text>a {
+    color: #f38181;
+}
+
+.email{
+    font-size: 0;
+}
+
+input {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(5, 5, 5);
+    padding-left: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+    width: 234px;
+    height: 44px;
+}
+
+input::placeholder {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(204, 204, 204);
+    font-style: italic;
+
+}
+
+.footer-button {
+    border: none;
+    background-color: rgb(149, 225, 211);
+    width: 154px;
+    height: 44px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer:before {
+    display: block;
+    background-color: rgb(229, 229, 229);
+    width: 1200px;
+    height: 1px;
+    content: '';
+    margin: 80px 0 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
