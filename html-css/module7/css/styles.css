@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Wisdom Script Regular'), url(../font/Wisdom\ Script\ AJ.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Droid Serif Italic'), url(../font/DroidSerif-Italic.woff) format('woff');
+    }
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -23,12 +37,12 @@ a {
 }
 
 .logo {
-    display: flex;
-    font-size: 20px;
+    display: block;
+    font-size: 26px;
     letter-spacing: 1px;
     line-height: 41px;
     color: #fed136;
-    font-family: "Wisdom";
+    font-family: "Wisdom Script Regular";
     list-style: none;
 }
 
