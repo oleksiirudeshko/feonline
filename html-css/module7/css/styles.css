@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    min-height: 65px;
+    margin: 0 0 110px;
+    padding-top: 2px;
+}
+
+.logo {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    color: #fed136;
+    font-family: "Wisdom";
+    list-style: none;
+}
+
+.logo::first-letter {
+    text-transform: uppercase;
+}
+
+.navigation-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 41px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 490px;
+    height: 65px;
+}
+
+.navigation-item {
+    color: #222222;
+}
+
+.navigation-item:hover {
+    color: #fed136;
+}
+
+.services>h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-text {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.services-name {
+    list-style: none;
+    padding-left: 60px;
+    max-width: 350px;
+    flex: 0 0 360px;
+    margin-bottom: 87px;
+    cursor: pointer;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    list-style: none;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.service-name-text {
+    width: 279px;
+    height: 58px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    text-align: center;
+}
+
+.commerce::before {
+    content: url(../img/com.png);
+    display: block;
+    padding: 14px;
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.responsive::before {
+    content: url(../img/recpon.png);
+    display: block;
+    padding: 14px;
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.security::before {
+    content: url(../img/secur.png);
+    display: block;
+    padding: 14px;
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.contact-us {
+    display: block;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 675px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 110px 0;
+}
+
+.contact-us::after {
+    display: block;
+    content: url(../img/foot-im.png);
+    width: 614px;
+    height: 537px;
+    background-repeat: no-repeat; 
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+
+.contact-us>h2 {
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+.form-massage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 14px;
+    font-family: "Montserrat";
+    margin: 72px 230px 0 230px;
+    padding: 0;
+    width: 940px;
+    height: 214px;
+}
+
+form input {
+    border-style: solid;
+    border-width: 1px; 
+    border-radius: 5px;
+    width: 455px;
+    height: 52px;
+    padding-left: 21px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+form input:last-of-type {
+    margin-bottom: 0;
+}
+
+form textarea {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(204, 204, 204);
+    width: 459px;
+    height: 210px;
+    padding: 15px 0 0 20px;
+}
+
+form button {
+    position: absolute;
+    left: 50%;
+    top: 520px;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    border: 0px;
+    background-color: rgb(254, 209, 54);
+    width: 240px;
+    height: 66px;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.form-massage input[required]:invalid, 
+  textarea[required]:invalid {
+    border-color: #ff2c2c;
+    background-color: #ffdddd;
+  }
+  
+.form-massage input[required]:valid, 
+textarea[required]:valid {
+    border-color: #2cfd2c;
+}
+
+.form-massage
+input::placeholder,
+textarea::placeholder,
+button {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #bbbbbb;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;  
+    letter-spacing: -0.025em;
+}
