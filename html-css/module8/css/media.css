@@ -1,0 +1,128 @@
+@media (max-width: 659px) {
+   
+    header {
+        height: 540px;
+    }
+
+    .header-img {
+        height: 540px;
+    }
+
+    .header-button {       
+        margin-bottom: 100px;
+    }
+
+    .hader {
+        flex-wrap: wrap-reverse;
+        align-content: center; 
+        justify-content: center;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+    }
+    
+    .banner-text {
+        font-size: 29px;
+    }
+
+    .banner-sub-text {
+        font-size: 18px;
+    }
+
+    .banner-buttom{
+        padding: 10px 50px;
+    }
+
+}
+ 
+@media (min-width: 660px) and (max-width: 939px) {
+
+    .container {
+        width: 660px;
+    }
+
+    .header-img {
+        height: 700px;
+    }  
+            
+    .hader {
+        align-items: baseline;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        top: 20px;         
+        left: 50%;
+        transform: translateX(-50%);  
+    }
+
+    .banner {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .banner-text {
+        font-size: 52px;
+        margin-bottom: 10px;
+    }
+
+    .banner-sub-text {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .banner-buttom {
+        margin-left: 160px;
+    }
+
+    .partner-card-item {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 492px;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .partner-card-photo {
+        padding-left: 0px;
+    }
+
+}
+
+@media (min-width: 940px) {
+
+    .container {
+        text-align: center;
+    }
+
+    .hader {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        top: 20px;
+        left: 6%;
+    }
+
+    .logo {
+        align-items: flex-start ;
+    }
+
+    .header-button {
+        align-items: flex-end;
+    }
+    
+    .partner-card-item {
+        display: flex;
+        width: 940px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .partner-card-photo {
+        padding-top: 30px;
+        padding-left: 0px;
+}
