@@ -78,7 +78,9 @@ a {
 
 .banner {
     position: absolute;
-    top: 229px;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .banner-text {
@@ -118,6 +120,10 @@ a {
     text-align: center;
 }
 
+main {
+    padding-bottom: 58px;
+}
+
 .partner-text {
     font-size: 22px;
     color: #333333;
@@ -138,7 +144,6 @@ a {
 
 .partner-card-photo {
     position: relative;
-    padding-left: 45px;
 }
 
  .partner-card-photo::after {
@@ -208,7 +213,5 @@ button {
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
-    margin-left: 20px;
-    margin-bottom: 58px;
 }
   
