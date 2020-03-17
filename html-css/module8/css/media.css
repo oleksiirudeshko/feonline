@@ -8,9 +8,9 @@
         height: 540px;
     }
 
-    .header-img {
+    /*.header-img {
         height: 540px;
-    }
+    }*/
 
     .header-button {       
         margin-bottom: 100px;
@@ -44,12 +44,16 @@
 @media (min-width: 660px) and (max-width: 941px) {
 
     .container {
-        width: 660px;
+        min-width: 660px;
     }
 
-    .header-img {
+    /*.header-img {
         height: 700px;
-    }  
+    }*/
+
+    header {
+        height: 700px;
+    }
             
     .hader {
         align-items: baseline;
@@ -97,9 +101,9 @@
         text-align: center;
     }
 
-    .header-img {
+    /*.header-img {
         height: 700px;
-    }
+    }*/
 
     .hader {
         min-width: 942px;
