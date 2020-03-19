@@ -57,12 +57,13 @@
         <p class="service-text">Proin iaculis purus consequat sem cure.</p>
 
         <form class="form-massage" action="#" method="get">
-            <input type="text" name="username" placeholder="your name *" required>
-            <input type="email" name="useremail" placeholder="your E-mail *" required>
+            <input type="text" name="username" placeholder="your name *" class="required" required>
+            <input type="email" name="useremail" placeholder="your E-mail *" class="required" required>
             <input type="text" name="subject" placeholder="subject">
-            <textarea type="text" name="body" rows="10" cols="100" placeholder="your massage *" required></textarea>
-            <button type="submit">send massage</button>
+            <textarea name="body" rows="10" cols="100" placeholder="your massage *" class="required" required></textarea>
         </form>
+
+        <button type="submit" class="button-send">send massage</button>
 
     </footer>
     
