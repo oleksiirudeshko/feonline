@@ -44,8 +44,8 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
     .container {
-        min-width: 660px;
-        
+        /*min-width: 660px;*/
+        text-align: center;
     }
 
     /*.header-img {
@@ -82,9 +82,9 @@
         margin-bottom: 20px;
     }
 
-    .banner-buttom {
+    /*.banner-buttom {
         margin-left: 160px;
-    }
+    }*/
 
     .partner-card-item {
         display: flex;

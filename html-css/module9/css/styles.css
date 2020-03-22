@@ -21,6 +21,8 @@ header {
     background-image: url(../img/banner.png);
     background-color: rgba(26, 25, 21);
     min-height: 700px;
+    min-width: 100%;
+    background-size: cover;
     background-position: center;
 }
 
