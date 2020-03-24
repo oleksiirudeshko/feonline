@@ -11,18 +11,38 @@
 
     <body>
 
-        <header class="container">
+        <header class="header-container">
 
-                <nav class="header">
-                    <a href="#" class="logo">MoGo</a>
-                    <ul class="navigation-header">
-                        <li><a href="#" class="navigation-item">about</a></li>
-                        <li><a href="#" class="navigation-item">service</a></li>
-                        <li><a href="#" class="navigation-item">work</a></li>
-                        <li><a href="#" class="navigation-item">blog</a></li>
-                        <li><a href="#" class="navigation-item">contact</a></li>
+                <nav class="header-navigation container">
+                    <a href="#" class="link logo__link">MoGo</a>
+                    <ul class="navigation-menu list">
+                        <li><a href="#" class="navigation-item link">about</a></li>
+                        <li><a href="#" class="navigation-item link">service</a></li>
+                        <li><a href="#" class="navigation-item link">work</a></li>
+                        <li><a href="#" class="navigation-item link">blog</a></li>
+                        <li><a href="#" class="navigation-item link">contact</a></li>
+                        <li class="navigation-icon">
+                            <button class="site-menu__button">
+                                <svg class="site-menu__icon">
+                                    <use href="./img/icon/sprite.svg#icon-shop" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="navigation-icon">
+                            <button class="site-menu__button">
+                                <svg class="site-menu__icon">
+                                    <use href="./img/icon/sprite.svg#icon-search" />
+                                </svg>
+                            </button>
+                        </li>
                     </ul>
                 </nav>
+
+                <div class="header-text">
+                    <p class="header-text__subtitle">Creative Template</p>
+                    <p class="header-text__title">welcome to MoGo</p>
+                    <a href="#" class="header-text__link link">Learn more</a>
+                </div>
 
         </header>
 
@@ -65,18 +85,34 @@
                 <h2>who we are<br>
                     <span>meet our team</span></h2>
                 <p class="team-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <ul class="team-items">
+                <ul class="team-items list">
                     <li class="team-photo">
 
                         <div class="team-substrate">
-                            <img src="./img/pic1.png" alt="man in glass" width="380" height="470">
-    
-                            <div class="card-cover ">
-                                <ul class="card-buttons">
-                                    <li class="card-button"><a href="#" class="facebook"></a> </li>
-                                    <li class="card-button"><a href="#" class="twitter"></a></li>
-                                    <li class="card-button"><a href="#" class="pinterest"></a></li>
-                                    <li class="card-button"><a href="#" class="instagram"></a></li>
+                            <img class="team-img" srcset="img/Layer1.png 380w, img/Layer1@2x.png 760w" sizes="380px"
+                                src="./img/Layer1.png" alt="man in glass" height="470">
+                            <div class="social">
+                                <ul class="social__buttons list">
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-fb"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-twit"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-pin"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-inst"></use>
+                                        </svg>
+                                    </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -86,13 +122,30 @@
     
                     <li class="team-photo">
                         <div class="team-substrate">
-                            <img src="./img/pic2.png" alt="man with camera" width="380" height="470">
-                            <div class="card-cover ">
-                                <ul class="card-buttons">
-                                    <li class="card-button"><a href="#" class="facebook"></a> </li>
-                                    <li class="card-button"><a href="#" class="twitter"></a></li>
-                                    <li class="card-button"><a href="#" class="pinterest"></a></li>
-                                    <li class="card-button"><a href="#" class="instagram"></a></li>
+                            <img class="team-img" srcset="img/Layer2.png 380w, img/Layer2@2x.png 760w" sizes="380px"
+                            src="./img/Layer2.png" alt="man with camera" height="470">
+                            <div class="social">
+                                <ul class="social__buttons list">
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-fb"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-twit"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-pin"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-inst"></use>
+                                        </svg>
+                                    </a></li>
                                 </ul>
                             </div>
     
@@ -103,13 +156,30 @@
     
                     <li class="team-photo">
                         <div class="team-substrate">
-                            <img src="./img/pic3.png" alt="man in tshirt" width="380" height="470">
-                            <div class="card-cover ">
-                                <ul class="card-buttons">
-                                    <li class="card-button"><a href="#" class="facebook"></a> </li>
-                                    <li class="card-button"><a href="#" class="twitter"></a></li>
-                                    <li class="card-button"><a href="#" class="pinterest"></a></li>
-                                    <li class="card-button"><a href="#" class="instagram"></a></li>
+                            <img class="team-img" srcset="img/Layer3.png 380w, img/Layer3@2x.png 760w" sizes="380px"
+                            src="./img/Layer3.png" alt="man in tshirt" height="470">
+                            <div class="social">
+                                <ul class="social__buttons list">
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-fb"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-twit"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-pin"></use>
+                                        </svg>
+                                    </a></li>
+                                    <li class="social__button"><a href="#" class="social__button-link">
+                                        <svg class="social__button-svg">
+                                            <use href="./img/icon/sprite.svg#icon-inst"></use>
+                                        </svg>
+                                    </a></li>
                                 </ul>
                             </div>
                         </div>
