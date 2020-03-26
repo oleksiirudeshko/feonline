@@ -1,0 +1,18 @@
+.site-menu__icon {
+    display: block;
+    width: 18px;
+    height: 15px;
+    fill: $primary-white-color;
+    margin-bottom: 11px;
+
+    &:hover {
+        fill: #fce38a;
+    }
+}
+
+.site-menu__button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}

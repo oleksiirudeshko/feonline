@@ -1,0 +1,42 @@
+.footer-text {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: $secondary-dark-color;
+    line-height: 3;
+}
+
+.footer-text>a {
+    color: $primary-coral-color;
+}
+
+.footer-button {
+    border: none;
+    background-color: rgb(149, 225, 211);
+    width: 154px;
+    height: 44px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: $primary-white-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer:before {
+    display: block;
+    background-color: rgb(229, 229, 229);
+    width: 1200px;
+    height: 1px;
+    content: '';
+    margin: 80px 0 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.email{
+    font-size: 0;
+}

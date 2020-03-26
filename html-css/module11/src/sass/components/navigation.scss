@@ -1,0 +1,40 @@
+.navigation-menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 490px;
+    height: 65px;
+}
+
+.navigation-item {
+    color: $primary-white-color;
+    transition: color 200ms linear;
+
+    &::after {
+        content: '';
+        background-color: $first-bg-color;
+        display: none;
+        width: 0;
+        height: 3px;
+        display: block;
+        margin-top: 10px;
+        transition: width 200ms linear;
+    }
+
+    &:hover {
+        color: $first-bg-color;
+    }
+
+    &:hover:after {
+        width: 100%;
+    }
+}
+
+
+
+
+

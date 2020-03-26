@@ -1,0 +1,44 @@
+.team-item {
+    max-width: 980px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    padding: 41px 0 88px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.team-photo {
+    width: 380px;
+}
+
+.team-substrate>img {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function:linear;
+}
+
+.team-substrate {
+    position: relative;
+    background-color: rgb(149, 225, 211);
+}
+
+.team-photo
+
+&:hover .team-substrate>img,
+&:hover .social {
+    opacity: 1;
+    transform: translate(-11px, -11px);
+}
+

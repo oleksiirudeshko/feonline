@@ -1,0 +1,48 @@
+.social {
+    background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 200ms linear;
+    opacity: 0;
+}
+
+.social__buttons {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__button-link {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    background-color: rgb(252, 227, 138);
+    justify-content: center;
+    align-items: center;
+
+    &:hover,
+    &:hover .social__button-svg {
+        fill: $primary-white-color;
+        background-color: $primary-coral-color;
+    }
+
+    &:hover {
+        background-color: #95e1d3;
+    }
+}
+
+.social__button-svg {
+    width: 27px;
+    height: 27px;
+    fill: $primary-coral-color;
+    transition: fill 200ms linear;
+}
+
+.social__button:not(:last-child) {
+    border-right: 1px solid $primary-coral-color;
+}
+
