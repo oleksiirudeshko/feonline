@@ -1,10 +1,8 @@
-$main-font-stack: 'Roboto', 'Montserrat', 'Kaushan Script', sans-serif;
-
-$primary-white-color: rgb(255, 255, 255);
-$primary-coral-color: #f38181;
-$secondary-bg-color: rgb(231, 231, 231);
-$input-bg-color: rgb(204, 204, 204);
-$first-dark-color: rgb(5, 5, 5);
-$secondary-dark-color: rgb(51, 51, 51);
-$first-lightdark-color: rgb(153, 153, 153);
-$first-bg-color: #fce38a;
+.container {
+    width: 1200px;
+    font-family: $main-font-stack;
+    color: #333333;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+}

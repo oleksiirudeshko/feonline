@@ -34,11 +34,12 @@
     background-color: rgb(149, 225, 211);
 }
 
-.team-photo
+.team-photo {
 
-&:hover .team-substrate>img,
-&:hover .social {
-    opacity: 1;
-    transform: translate(-11px, -11px);
+    &:hover .team-substrate>img,
+    &:hover .social {
+        opacity: 1;
+        transform: translate(-11px, -11px);
+    }
 }
 
