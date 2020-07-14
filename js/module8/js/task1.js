@@ -5,7 +5,7 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable no-use-before-define */
-import galleryItem from '../js/gallery-items'; // eslint-disable-line
+import galleryItem from '../js/gallery-items.js'; // eslint-disable-line
 
 let __index;
 let counterValue = 0;
