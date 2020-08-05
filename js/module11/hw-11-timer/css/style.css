@@ -1,0 +1,42 @@
+body {
+  background: rgb(10, 4, 4);
+  text-align: center;
+}
+.timer {
+  padding-top: 250px;
+}
+.field {
+  display: inline-block;
+  padding: 30px 17px 12px;
+  color: #ffffff;
+  margin: 5px;
+  background-color: gray;
+  width: 50px;
+}
+
+.value {
+  font-size: 50px;
+  line-height: 15px;
+}
+
+button {
+  background-color: rgb(10, 182, 10);
+  border-radius: 6px;
+  border: 1px solid;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 75px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #070707;
+}
+button:active {
+  position: relative;
+  top: 1px;
+  border: none;
+}
